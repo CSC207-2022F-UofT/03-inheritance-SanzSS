@@ -79,9 +79,9 @@ public abstract class Bag {
         if (numberOfContents < capacity) {
             numberOfContents += 1;
             contents[numberOfContents - 1] = item;
-            return True;
+            return true;
         }
-        return False;
+        return false;
     }
 
 
