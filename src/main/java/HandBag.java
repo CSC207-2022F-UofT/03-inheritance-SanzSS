@@ -16,7 +16,7 @@ public class HandBag extends Bag{
      * @param capacity
      */
     public HandBag(String color, int capacity) {
-        /**
+        /*
          * This is how we call the parent's constructor
          * The Python equivalent is super().__init__(...)
          */
@@ -34,5 +34,6 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+        this.increaseCapacity(1);
     }
 }
