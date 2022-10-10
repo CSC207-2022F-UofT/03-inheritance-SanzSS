@@ -14,7 +14,7 @@ public abstract class Bag {
      *       - an array of Strings named contents
      */
     private String color;
-    private int numberOfContents = 0;
+    private int numberOfContents;
     private int capacity;
     private String[] contents;
 
@@ -31,6 +31,7 @@ public abstract class Bag {
         this.capacity = capacity;
         this.color = color;
         this.contents = new String[capacity];
+        this.numberOfContents = 0;
     }
 
 
