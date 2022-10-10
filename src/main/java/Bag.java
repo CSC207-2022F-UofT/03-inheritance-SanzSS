@@ -99,7 +99,7 @@ public abstract class Bag {
      * @return
      */
     public String popItem(){
-        if (contents == null) {
+        if (contents.length == 0) {
             return null;
         }
         String result = contents[numberOfContents - 1];
